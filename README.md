@@ -1,6 +1,14 @@
 # MockHttpServer JSON matcher #
 
-As of version 4.0-SNAPSHOT, [mock-http-server](https://github.com/kristofa/mock-http-server)
+    <dependency>
+        <groupId>com.github.kristofa</groupId>
+        <artifactId>mock-http-server-json-matcher</artifactId>
+        <version>1.0</version>
+        <scope>test</scope>
+    </dependency>
+
+
+As of version 4.0, [mock-http-server](https://github.com/kristofa/mock-http-server)
 is extended to support matching variable, non deterministic content in http requests.
 
 An example of variable content can be a JSON entity.
@@ -13,13 +21,12 @@ will also be done for json which means different order of properties will not be
 as a difference anymore.
 
 The `JsonMatchingFilter` implementation depends on [jackson-databind](https://github.com/FasterXML/jackson-databind)
-dependency and as I did not want to pull in this dependency in mock-http-server it gets
-released as a separate module.
+dependency. I did not want to pull this dependency in mock-http-server so I created a separate module.
 
 Similar implementations could be developed for XML or other entity formats.
 
 ## Changelog ##
 
-### 1.0-SNAPSHOT ###
+### 1.0 ###
 
 +   Initial version
