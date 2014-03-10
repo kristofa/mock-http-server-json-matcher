@@ -56,7 +56,7 @@
     <dependency>
         <groupId>com.github.kristofa</groupId>
         <artifactId>mock-http-server</artifactId>
-        <version>4.0-SNAPSHOT</version>
+        <version>4.0</version>
     </dependency>
     <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
