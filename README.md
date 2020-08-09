@@ -1,5 +1,7 @@
 # MockHttpServer JSON matcher #
 
+**This repo is archived and not maintained anymore. It is still available in read-only mode and can be forked.**
+
     <dependency>
         <groupId>com.github.kristofa</groupId>
         <artifactId>mock-http-server-json-matcher</artifactId>
